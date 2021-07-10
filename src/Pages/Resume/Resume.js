@@ -37,35 +37,43 @@ const Resume = () => {
           </Typography>
         </Grid>
       </Grid>
+      {/* Skils */}
+      <Grid container className='section garybg pb_45 p_50'>
+        <Grid item xs={12}>
+          <Grid container justify='space-between' spacing={3}>
+            {resumeData.skills.map((skill, index) => (
+              <Grid item xs={12} sm={6} md={3} key={index}>
+                <Paper elevation={0} className='skill'>
+                  <Typography variant='h6' className={'skill_title'}>
+                    {skill.title}
+                  </Typography>
+                  {skill.description.map((el, index) => (
+                    <Typography
+                      variant='body2'
+                      className='skill_description'
+                      key={index}
+                    >
+                      <TimelineDot
+                        variant='outlined'
+                        className='timeline_dot'
+                      />
+                      {el}
+                    </Typography>
+                  ))}
+                </Paper>
+              </Grid>
+            ))}
+          </Grid>
+        </Grid>
+      </Grid>
       {/* Education and Expirience */}
-      <Grid container className='section pb_45'>
+      <Grid container className='section pb_45 pt_45'>
         <Grid item className='section_title mb_30'>
           <span></span>
           <h6 className='section_title_text'>Resume</h6>
         </Grid>
         <Grid item xs={12}>
           <Grid container className='resume_timeline'>
-            {/* Expiriences */}
-            <Grid item sm={12} md={6}>
-              <CustomTimeline title='Work Experience' icon={<WorkIcon />}>
-                {resumeData.experiences.map((exp, index) => (
-                  <TimelineItem key={index}>
-                    <CustomTimelineSeparator />
-                    <TimelineContent className='resume_content'>
-                      <Typography className='timeline_title'>
-                        {exp.title}
-                      </Typography>
-                      <Typography variant='caption' className='timeline_date'>
-                        {exp.date}
-                      </Typography>
-                      <Typography variant='body2' className='timeline_desc'>
-                        {exp.description}
-                      </Typography>
-                    </TimelineContent>
-                  </TimelineItem>
-                ))}
-              </CustomTimeline>
-            </Grid>
             {/* Education */}
             <Grid item sm={12} md={6}>
               <CustomTimeline title='Education' icon={<SchoolIcon />}>
@@ -87,11 +95,32 @@ const Resume = () => {
                 ))}
               </CustomTimeline>
             </Grid>
+            {/* Expiriences */}
+            <Grid item sm={12} md={6}>
+              <CustomTimeline title='Work Experience' icon={<WorkIcon />}>
+                {resumeData.experiences.map((exp, index) => (
+                  <TimelineItem key={index}>
+                    <CustomTimelineSeparator />
+                    <TimelineContent className='resume_content'>
+                      <Typography className='timeline_title'>
+                        {exp.title}
+                      </Typography>
+                      <Typography variant='caption' className='timeline_date'>
+                        {exp.date}
+                      </Typography>
+                      <Typography variant='body2' className='timeline_desc'>
+                        {exp.description}
+                      </Typography>
+                    </TimelineContent>
+                  </TimelineItem>
+                ))}
+              </CustomTimeline>
+            </Grid>
           </Grid>
         </Grid>
       </Grid>
       {/* Services */}
-      <Grid container className='section pb_45'>
+      <Grid container className='section garybg pb_45 pt_45'>
         <Grid item className='section_title mb_30'>
           <span></span>
           <h6 className='section_title_text'>My Services</h6>
@@ -114,37 +143,12 @@ const Resume = () => {
           </Grid>
         </Grid>
       </Grid>
-      {/* Skils */}
-      <Grid container className='section garybg pb_45 p_50'>
-        <Grid item xs={12}>
-          <Grid container justify='space-between' spacing={3}>
-            {resumeData.skills.map((skill, index) => (
-              <Grid item xs={12} sm={6} md={3} key={index}>
-                <Paper elevation={0} className='skill'>
-                  <Typography variant='h6' className={'skill_title'}>
-                    {skill.title}
-                  </Typography>
-                  {skill.description.map((el, index) => (
-                    <Typography variant='body2' className='skill_description'>
-                      <TimelineDot
-                        variant='outlined'
-                        className='timeline_dot'
-                      />
-                      {el}
-                    </Typography>
-                  ))}
-                </Paper>
-              </Grid>
-            ))}
-          </Grid>
-        </Grid>
-      </Grid>
 
       {/* Diploms */}
       <Grid container className='section  pt_45 pb_45'>
         <Grid item className='section_title mb_30 '>
           <span></span>
-          <h6 className='section_title_text'>My Diploms</h6>
+          <h6 className='section_title_text'>My Diplomas</h6>
         </Grid>
         <Grid item xs={12}>
           <Grid container justify='space-between' spacing={3}>

@@ -32,7 +32,7 @@ const Portfolio = () => {
       <Grid item xs={12}>
         <Tabs
           value={tabValue}
-          indicatorColor={'#fff'}
+          indicatorColor='#fff'
           className='customTabs'
           onChange={(event, newValue) => setTabValue(newValue)}
         >
@@ -44,8 +44,9 @@ const Portfolio = () => {
             }
           />
           {[...new Set(resumeData.portfolio.map((item) => item.tag))].map(
-            (tag) => (
+            (tag, index) => (
               <Tab
+                key={index}
                 label={tag}
                 value={tag}
                 className={

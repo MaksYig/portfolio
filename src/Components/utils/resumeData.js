@@ -46,7 +46,7 @@ export default {
     },
   },
   about:
-    " I'm a Front-End & Back-End Developer who excited being a strategic partner and an awesome product provider. I like to create and I like to comprehend new knowledge in web and mobile development. I'll be delighted to bring your new project to reality. Will join team to create something beautiful, or will take remotly orders.",
+    "  I'm a Front-End & Back-End Developer who is excited about being a strategic partner and an awesome product provider. I like to create and I like to comprehend new knowledge in web and mobile development. I'll be delighted to bring your new project to reality. Will join a team to create something beautiful or will take remote orders.",
 
   experiences: [
     {
@@ -74,35 +74,35 @@ export default {
 
   educations: [
     {
-      title: 'Couгse Web Developers',
+      title: 'Web Development Course',
       date: '2020',
       description:
         'Intensive online course for web developers (HTML5, CSS3, JQuery) ',
     },
     {
-      title: 'Couгse Javascript',
+      title: 'Javascript Couгse',
       date: ' 2020',
       description: 'Intensive online course of Javascript (ES6) and ReactJs',
     },
     {
-      title: 'Couгse Javascript',
+      title: 'Javascript Couгse ',
       date: '2020',
       description: 'Intensive practical advanced course of Javascript (ES6)',
     },
     {
-      title: 'Couгse Back-End',
+      title: 'Back-End Couгse',
       date: '2020',
       description:
         'Intensive practical advanced course of (Node.js , Express, MongoDb)',
     },
     {
-      title: 'Couгse MERN',
+      title: 'MERN Couгse ',
       date: '2021',
       description:
         'Intensive practical advanced course of MERN ( MongoDb,Express,React.js,Node.js)',
     },
     {
-      title: 'Couгse React Native',
+      title: 'React Native Couгse',
       date: '2021',
       description: ' React Native - The practical course',
     },
