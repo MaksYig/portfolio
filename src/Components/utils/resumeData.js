@@ -16,6 +16,7 @@ import weatherjs from '../../Assets/Img/Works/js/weatherjs.jpg';
 import dicegame from '../../Assets/Img/Works/js/dicegame.jpg';
 import firstapp from '../../Assets/Img/Works/reactnative/firstapp.png';
 import tourMERN from '../../Assets/Img/Works/reactjs/tourMERN.jpg';
+import rentNative from '../../Assets/Img/Works/reactnative/rent-native.jpg';
 
 export default {
   name: 'Yigal Igor Maksimov',
@@ -190,6 +191,15 @@ export default {
       caption: 'React Native App (Android)',
       description:
         'React Native App for Android with API. BackEnd part work with NodeJs and MongoDB. App with option to order Tours, see adds with appartment rents and Swipe Dating. With Sign in and Sign up option and Admin Menu to manage Users, Tours, Rents and Bookings.',
+      links: [],
+    },
+    {
+      tag: 'React Native',
+      image: rentNative,
+      title: 'Rent appartment Android App',
+      caption: 'Rent appartment Android App',
+      description:
+        'React Native App for Android.Back-End part work with Firebase. App with option to find appartment in area and contact directly with owner.',
       links: [],
     },
     {
