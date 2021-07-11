@@ -45,14 +45,14 @@ export default {
     },
   },
   about:
-    "  I'm a Front-End & Back-End Developer who is excited about being a strategic partner and an awesome product provider. I like to create and I like to comprehend new knowledge in web and mobile development. I'll be delighted to bring your new project to reality. Will join a team to create something beautiful or will take remote orders.",
+    "  I'm a Front-End & Back-End Developer who is excited about being a strategic partner and an awesome product provider. I like to create, and I like to comprehend new knowledge in web and mobile development. I'll be delighted to bring your new project to reality. Will join a team to create something beautiful or will take remote orders.",
 
   experiences: [
     {
       title: 'Freelancer',
       date: '2020 - to Present',
       description:
-        'Creation of several projects through a freelance exchange. On such platforms as: Upwork, FIverr. Website development for acquaintances to improve their own qualifications',
+        'Creation of several projects through a freelance exchange. On such platforms as: Upwork, Fiverr. Website development for acquaintances to improve their own qualifications.',
     },
     {
       title: 'Teleperformance (Greece)',
@@ -70,7 +70,7 @@ export default {
       title: 'Flextronics Israel',
       date: '2013 - 2015',
       description:
-        'Production management for antennas collection for cellular.Management of a team of 100 people in two shifts. The responsibility for the production, shipment and uality of QA.',
+        'Production management for antennas collection for cellular. Management of a team of 100 people in two shifts. The responsibility for the production, shipment and quality of QA.',
     },
     {
       title: 'Military service',
@@ -100,13 +100,13 @@ export default {
       title: 'Back-End Couгse',
       date: '2020',
       description:
-        'Intensive practical advanced course of (Node.js , Express, MongoDb)',
+        'Intensive practical advanced course of (NodeJS , ExpressJS, MongoDB)',
     },
     {
       title: 'MERN Couгse ',
       date: '2021',
       description:
-        'Intensive practical advanced course of MERN ( MongoDb,Express,React.js,Node.js)',
+        'Intensive practical advanced course of MERN ( MongoDB,ExpressJS,ReactJS,NodeJS)',
     },
     {
       title: 'React Native Couгse',
@@ -180,7 +180,7 @@ export default {
       image: tourMERN,
       title: 'MERN Tour App',
       description:
-        'Tours MERN (MongoDB,Express,React.js,Node.js) App. With user and admin settings panel, option to order tours.Auth users with JWT cookie. Used MaterialUI for User Interface.',
+        'Tours MERN (MongoDB, ExpressJS, ReactJS, NodeJS) App. With user and admin settings panel, option to order tours.Auth users with JWT cookie. Used MaterialUI for User Interface.',
       caption: 'TOUR MERN APP',
       links: [{ link: 'https://tpservice.netlify.app/', icon: <GitHubIcon /> }],
     },
@@ -190,16 +190,16 @@ export default {
       title: 'React Native App (Android)',
       caption: 'React Native App (Android)',
       description:
-        'React Native App for Android with API. BackEnd part work with NodeJs and MongoDB. App with option to order Tours, see adds with appartment rents and Swipe Dating. With Sign in and Sign up option and Admin Menu to manage Users, Tours, Rents and Bookings.',
+        'React Native App for Android with API. BackEnd part work with NodeJs and MongoDB. App with option to order Tours, see adds with apartment rents and Swipe Dating. With Sign in and Sign up option and Admin Menu to manage Users, Tours, Rents and Bookings.',
       links: [],
     },
     {
       tag: 'React Native',
       image: rentNative,
-      title: 'Rent appartment Android App',
-      caption: 'Rent appartment Android App',
+      title: 'Rent apartment Android App',
+      caption: 'Rent apartment Android App',
       description:
-        'React Native App for Android.Back-End part work with Firebase. App with option to find appartment in area and contact directly with owner.',
+        'React Native App for Android. Back-End part work with Firebase. App with option to find apartment in area and contact directly with owner.',
       links: [],
     },
     {
@@ -208,7 +208,7 @@ export default {
       caption: 'Countdown script for web site',
       title: 'Javascript-Countdown vanila ',
       description:
-        'Countdown script for web site on clear Javascript code (ES6) . With automatic year change on the background. Easy add to your project and customise as you need.',
+        'Countdown script for web site on clear Javascript code (ES6). With automatic year change on the background. Easy add to your project and customize as you need.',
       links: [
         {
           link: 'https://maksyig.github.io/timeCounter/dist/',
@@ -222,7 +222,7 @@ export default {
       caption: 'SingUp modal with validation for web site',
       title: 'JavaScript-SingUp modal with validation',
       description:
-        'Singup modal with validation for web site on clear Javascript code (ES6). Validates input rows for text, numbers, email. Submit button is not active till all inputs are not filled. Sending Fetch POST object with user information. Easy add to your project and customise as you need.',
+        'Singup modal with validation for web site on clear Javascript code (ES6). Validates input rows for text, numbers, email. Submit button is not active till all inputs are not filled. Sending Fetch POST object with user information. Easy add to your project and customize as you need.',
       links: [
         {
           link: 'https://maksyig.github.io/signup_modal/dist/',
@@ -236,7 +236,7 @@ export default {
       caption: 'Weather App with API requests',
       title: 'JavaScript-Weather App with API requests',
       description:
-        'Web App showing the current weather in the city and general information about the country Created with Use Strict mode (ES6+). With two diferent API Fetch requests. With option to show wheather for 7 days forward. With random background pictures.Location option is not working because of subdomain.',
+        'Web App showing the current weather in the city and general information about the country Created with Use Strict mode (ES6+). With two diferent API Fetch requests. With option to show wheather for 7 days forward. With random background pictures. Location option is not working because of subdomain.',
       links: [
         {
           link: 'http://weatherapiapp.maksydev.site/',
