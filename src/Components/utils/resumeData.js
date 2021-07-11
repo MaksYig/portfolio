@@ -15,10 +15,6 @@ import dicegame from '../../Assets/Img/Works/js/dicegame.jpg';
 import firstapp from '../../Assets/Img/Works/reactnative/firstapp.png';
 import tourMERN from '../../Assets/Img/Works/reactjs/tourMERN.jpg';
 
-import UK from '../../Assets/Img/Flags/uk.png';
-import ISR from '../../Assets/Img/Flags/israel.png';
-import RUS from '../../Assets/Img/Flags/russia.png';
-
 export default {
   name: 'Yigal Igor Maksimov',
   title: 'Full stack developer',
@@ -50,23 +46,31 @@ export default {
 
   experiences: [
     {
-      title: 'Freelancer',
+      title: 'FREELANCER',
       date: '2019 - to Present',
       description:
         'Creation of several projects through a freelance exchange. On such platforms as: Upwork, FIverr. Website development for acquaintances to improve their own qualifications',
     },
     {
-      title: 'Own food production business',
+      title: 'TELEPERFORMANCE (Greece)',
+      date: 'November 2019 - to Present',
+      description:
+        "Technical Support M**** Project.Solutions of customer's technical problems related to Programs Office and Windows via remote connection to the client's personal computer.",
+    },
+    {
+      title: 'LTD. KONCEPT-PRODUCT (MINSK, BELARUS)',
       date: ' 2015 - 2018',
-      description: '(Position is not related to web development)',
+      description:
+        'Calculation of profitability of production, negotiations with the clients for the supply of products, drawing up a financial plan. Control of the technical production process from order to shipment of finished products.',
     },
     {
-      title: 'Production Manager on Electronic Factory',
+      title: 'FLEXTRONICS ISRAEL',
       date: '2013 - 2015',
-      description: '(Position is not related to web development)',
+      description:
+        'Production management for antennas collection for cellular.Management of a team of 100 people in two shifts. The responsibility for the production, shipment and uality of QA.',
     },
     {
-      title: 'Military service.',
+      title: 'MILITARY SERVICE',
       date: '2005 - 2013',
       description: '(Position is not related to web development)',
     },
