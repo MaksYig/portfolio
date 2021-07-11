@@ -3,10 +3,12 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import WebIcon from '@material-ui/icons/Web';
 import MobileFriendlyIcon from '@material-ui/icons/MobileFriendly';
+
 import diplom1 from '../../Assets/Img/Diploms/java+react.jpg';
 import diplom2 from '../../Assets/Img/Diploms/java_practic.jpg';
 import diplom3 from '../../Assets/Img/Diploms/nodejs&react.jpg';
 import diplom4 from '../../Assets/Img/Diploms/nodejs.jpg';
+import reactNative from '../../Assets/Img/Diploms/react-native.jpg';
 
 import countDownjs from '../../Assets/Img/Works/js/countDown-js.jpg';
 import validationjs from '../../Assets/Img/Works/js/validationjs.jpg';
@@ -58,7 +60,7 @@ export default {
         "Technical Support M**** Project.Solutions of customer's technical problems related to Programs Office and Windows via remote connection to the client's personal computer.",
     },
     {
-      title: 'LTD. Koncept-Pproduct (Minsk, Belarus)',
+      title: 'Ltd. Koncept-Pproduct (Minsk, Belarus)',
       date: ' 2015 - 2018',
       description:
         'Calculation of profitability of production, negotiations with the clients for the supply of products, drawing up a financial plan. Control of the technical production process from order to shipment of finished products.',
@@ -72,7 +74,7 @@ export default {
     {
       title: 'Military service',
       date: '2005 - 2013',
-      description: '(Position is not related to web development)',
+      description: '',
     },
   ],
 
@@ -165,6 +167,10 @@ export default {
     {
       title: 'Full course practical Node.js,Express,MongoDb',
       img: diplom4,
+    },
+    {
+      title: 'React Native - The practical Guide',
+      img: reactNative,
     },
   ],
   portfolio: [
