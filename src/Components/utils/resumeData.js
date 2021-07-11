@@ -46,31 +46,31 @@ export default {
 
   experiences: [
     {
-      title: 'FREELANCER',
-      date: '2019 - to Present',
+      title: 'Freelancer',
+      date: '2020 - to Present',
       description:
         'Creation of several projects through a freelance exchange. On such platforms as: Upwork, FIverr. Website development for acquaintances to improve their own qualifications',
     },
     {
-      title: 'TELEPERFORMANCE (Greece)',
+      title: 'Teleperformance (Greece)',
       date: 'November 2019 - to Present',
       description:
         "Technical Support M**** Project.Solutions of customer's technical problems related to Programs Office and Windows via remote connection to the client's personal computer.",
     },
     {
-      title: 'LTD. KONCEPT-PRODUCT (MINSK, BELARUS)',
+      title: 'LTD. Koncept-Pproduct (Minsk, Belarus)',
       date: ' 2015 - 2018',
       description:
         'Calculation of profitability of production, negotiations with the clients for the supply of products, drawing up a financial plan. Control of the technical production process from order to shipment of finished products.',
     },
     {
-      title: 'FLEXTRONICS ISRAEL',
+      title: 'Flextronics Israel',
       date: '2013 - 2015',
       description:
         'Production management for antennas collection for cellular.Management of a team of 100 people in two shifts. The responsibility for the production, shipment and uality of QA.',
     },
     {
-      title: 'MILITARY SERVICE',
+      title: 'Military service',
       date: '2005 - 2013',
       description: '(Position is not related to web development)',
     },
