@@ -17,31 +17,32 @@ import dicegame from '../../Assets/Img/Works/js/dicegame.jpg';
 import firstapp from '../../Assets/Img/Works/reactnative/firstapp.png';
 import tourMERN from '../../Assets/Img/Works/reactjs/tourMERN.jpg';
 import rentNative from '../../Assets/Img/Works/reactnative/rent-native.jpg';
+import movie from '../../Assets/Img/Works/reactnative/movie.jpg';
 
 export default {
   name: 'Yigal Igor Maksimov',
   title: 'Full stack developer',
-  languages: 'ENG, RUS, HEB',
+  languages: 'ENG, HEB, RUS',
   email: 'maksylfd@gmail.com',
   location: ' Athens, Greece',
   phone: '+30 694 381 1801',
-  job: 'Freelancer',
+  job: 'Full stack developer',
 
   social: {
-    Facebook: {
-      link: 'https://www.facebook.com/MaksyDev',
-      text: 'Facebook',
-      icon: <FacebookIcon />,
+    // Facebook: {
+    //   link: 'https://www.facebook.com/MaksyDev',
+    //   text: 'Facebook',
+    //   icon: <FacebookIcon />,
+    // },
+    GitHub: {
+      link: 'https://github.com/MaksYig',
+      text: 'GitHub',
+      icon: <GitHubIcon />,
     },
     LinkedIn: {
       link: 'https://www.linkedin.com/in/yigal-igor-maksimov-0572021b3/',
       text: 'LinkedIn',
       icon: <LinkedInIcon />,
-    },
-    GitHub: {
-      link: 'https://github.com/MaksYig',
-      text: 'GitHub',
-      icon: <GitHubIcon />,
     },
   },
   about:
@@ -61,7 +62,7 @@ export default {
         "Technical Support M**** Project.Solutions of customer's technical problems related to Programs Office and Windows via remote connection to the client's personal computer.",
     },
     {
-      title: 'Ltd. Koncept-Pproduct (Minsk, Belarus)',
+      title: 'Ltd. Koncept-Product (Minsk, Belarus)',
       date: ' 2015 - 2018',
       description:
         'Calculation of profitability of production, negotiations with the clients for the supply of products, drawing up a financial plan. Control of the technical production process from order to shipment of finished products.',
@@ -81,26 +82,9 @@ export default {
 
   educations: [
     {
-      title: 'Web Development Course',
-      date: '2020',
-      description:
-        'Intensive online course for web developers (HTML5, CSS3, JQuery) ',
-    },
-    {
-      title: 'Javascript Couгse',
-      date: ' 2020',
-      description: 'Intensive online course of Javascript (ES6) and ReactJs',
-    },
-    {
-      title: 'Javascript Couгse ',
-      date: '2020',
-      description: 'Intensive practical advanced course of Javascript (ES6)',
-    },
-    {
-      title: 'Back-End Couгse',
-      date: '2020',
-      description:
-        'Intensive practical advanced course of (NodeJS , ExpressJS, MongoDB)',
+      title: 'React Native Couгse',
+      date: '2021',
+      description: ' React Native - The practical course',
     },
     {
       title: 'MERN Couгse ',
@@ -109,9 +93,26 @@ export default {
         'Intensive practical advanced course of MERN ( MongoDB,ExpressJS,ReactJS,NodeJS)',
     },
     {
-      title: 'React Native Couгse',
-      date: '2021',
-      description: ' React Native - The practical course',
+      title: 'Back-End Couгse',
+      date: '2020',
+      description:
+        'Intensive practical advanced course of (NodeJS , ExpressJS, MongoDB)',
+    },
+    {
+      title: 'Javascript Couгse ',
+      date: '2020',
+      description: 'Intensive practical advanced course of Javascript (ES6)',
+    },
+    {
+      title: 'Javascript Couгse',
+      date: ' 2020',
+      description: 'Intensive online course of Javascript (ES6) and ReactJs',
+    },
+    {
+      title: 'Web Development Course',
+      date: '2020',
+      description:
+        'Intensive online course for web developers (HTML5, CSS3, JQuery) ',
     },
   ],
   services: [
@@ -192,6 +193,17 @@ export default {
       description:
         'React Native App for Android with API. BackEnd part work with NodeJs and MongoDB. App with option to order Tours, see adds with apartment rents and Swipe Dating. With Sign in and Sign up option and Admin Menu to manage Users, Tours, Rents and Bookings.',
       links: [],
+    },
+    {
+      tag: 'React Native',
+      image: movie,
+      title: 'React Native Movie App (Android)',
+      caption: 'React Native Movie App (Android)',
+      description:
+        'React Native App for Android with API. Movie app that you can see the movies categories. Also can looking for movies and see movie description and movie trailer.',
+      links: [
+        { link: 'https://github.com/MaksYig/movie', icon: <GitHubIcon /> },
+      ],
     },
     {
       tag: 'React Native',
