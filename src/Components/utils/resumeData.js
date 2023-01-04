@@ -9,7 +9,7 @@ import diplom2 from '../../Assets/Img/Diploms/java_practic.jpg';
 import diplom3 from '../../Assets/Img/Diploms/nodejs&react.jpg';
 import diplom4 from '../../Assets/Img/Diploms/nodejs.jpg';
 import reactNative from '../../Assets/Img/Diploms/react-native.jpg';
-
+import foodDeliveryApp from '../../Assets/Img/Works/reactnative/foodDeliveryApp.jpg';
 import countDownjs from '../../Assets/Img/Works/js/countDown-js.jpg';
 import validationjs from '../../Assets/Img/Works/js/validationjs.jpg';
 import weatherjs from '../../Assets/Img/Works/js/weatherjs.jpg';
@@ -46,7 +46,7 @@ export default {
     },
   },
   about:
-    "  I'm a Front-End & Back-End Developer who is excited about being a strategic partner and an awesome product provider. I like to create, and I like to comprehend new knowledge in web and mobile development. I'll be delighted to bring your new project to reality. Will join a team to create something beautiful or will take remote orders.",
+    "I'm a Front-End & Back-End Developer who is excited about being a strategic partner and an awesome product provider. I like to create, and I like to comprehend new knowledge in web and mobile development. I'll be delighted to bring your new project to reality. Will join a team to create something beautiful or will take remote orders.",
 
   experiences: [
     {
@@ -57,7 +57,7 @@ export default {
     },
     {
       title: 'Teleperformance (Greece)',
-      date: 'November 2019 - to Present',
+      date: 'November 2019 - September 2021',
       description:
         "Technical Support M**** Project.Solutions of customer's technical problems related to Programs Office and Windows via remote connection to the client's personal computer.",
     },
@@ -140,11 +140,11 @@ export default {
     },
     {
       title: 'BACK-END',
-      description: ['NodeJS'],
+      description: ['NodeJS', 'Python'],
     },
     {
       title: 'DATABASES',
-      description: ['Firebase', 'MongoDB'],
+      description: ['Firebase', 'MongoDB', 'MySQL'],
     },
     {
       title: 'SOURCE CONTROL',
@@ -193,6 +193,20 @@ export default {
       description:
         'React Native App for Android with API. BackEnd part work with NodeJs and MongoDB. App with option to order Tours, see adds with apartment rents and Swipe Dating. With Sign in and Sign up option and Admin Menu to manage Users, Tours, Rents and Bookings.',
       links: [],
+    },
+    {
+      tag: 'React Native',
+      image: foodDeliveryApp,
+      title: 'React Native App (Android)',
+      caption: 'Food Delivery App (Android)',
+      description:
+        'React Native App for Android. Food delivery app. Only Front-End part.Drawer menu, filter settings. App is not done yet.',
+      links: [
+        {
+          link: 'https://github.com/MaksYig/foodDeliveryApp',
+          icon: <GitHubIcon />,
+        },
+      ],
     },
     {
       tag: 'React Native',
