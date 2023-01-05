@@ -48,7 +48,7 @@ export default {
       icon: <LinkedInIcon />,
     },
     Telegram: {
-      link: 'https://msng.link/o/?@yig_ma=tg',
+      link: 'https://msng.link/o/?yig_ma=tg',
       text: 'Telegram',
       icon: <TelegramIcon />,
     },
