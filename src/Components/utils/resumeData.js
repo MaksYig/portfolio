@@ -1,8 +1,11 @@
 import FacebookIcon from '@material-ui/icons/Facebook';
+import TelegramIcon from '@material-ui/icons/Telegram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import WebIcon from '@material-ui/icons/Web';
 import MobileFriendlyIcon from '@material-ui/icons/MobileFriendly';
+
+import CV from '../../Assets/CV Yigal-Web.pdf';
 
 import diplom1 from '../../Assets/Img/Diploms/java+react.jpg';
 import diplom2 from '../../Assets/Img/Diploms/java_practic.jpg';
@@ -44,6 +47,11 @@ export default {
       text: 'LinkedIn',
       icon: <LinkedInIcon />,
     },
+    Telegram: {
+      link: 'https://msng.link/o/?@yig_ma=tg',
+      text: 'Telegram',
+      icon: <TelegramIcon />,
+    },
   },
   about:
     "I'm a Front-End & Back-End Developer who is excited about being a strategic partner and an awesome product provider. I like to create, and I like to comprehend new knowledge in web and mobile development. I'll be delighted to bring your new project to reality. Will join a team to create something beautiful or will take remote orders.",
@@ -81,6 +89,11 @@ export default {
   ],
 
   educations: [
+    {
+      title: 'Python + Django Couгse',
+      date: '2022',
+      description: ' Python (Django) web aplications - The practical course',
+    },
     {
       title: 'React Native Couгse',
       date: '2021',
@@ -131,9 +144,10 @@ export default {
     {
       title: 'FRONT-END',
       description: [
+        'JavaScript',
         'ReactJS',
         'React Native',
-        'JavaScript',
+        'Django',
         'MaterialUI',
         'Native Base',
       ],
@@ -200,7 +214,7 @@ export default {
       title: 'React Native App (Android)',
       caption: 'Food Delivery App (Android)',
       description:
-        'React Native App for Android. Food delivery app. Only Front-End part.Drawer menu, filter settings. App is not done yet.',
+        'React Native App for Android. Food delivery app. Only Front-End part.Drawer menu, filter settings.',
       links: [
         {
           link: 'https://github.com/MaksYig/foodDeliveryApp',
@@ -285,4 +299,8 @@ export default {
       ],
     },
   ],
+  cv: {
+    name: 'Yigal CV',
+    path: CV,
+  },
 };

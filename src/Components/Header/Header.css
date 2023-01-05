@@ -48,3 +48,15 @@
   margin-right: 12px;
   color: black;
 }
+
+.header .cv_button_wrapper {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+  margin: 0px 10px 0px 10px;
+}
+
+.header .cv_button_wrapper > a {
+  color: unset;
+  text-decoration: none;
+}

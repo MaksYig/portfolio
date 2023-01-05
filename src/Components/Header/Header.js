@@ -13,7 +13,6 @@ import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
 import { Link, NavLink, withRouter } from 'react-router-dom';
 import TelegramIcon from '@material-ui/icons/Telegram';
 import resumeData from '../utils/resumeData';
-import customButton from '../Button/Button';
 import CustomButton from '../Button/Button';
 import './Header.css';
 
@@ -50,6 +49,11 @@ const Header = (props) => {
             Portfolio
           </Nav.Link>
         </Nav>
+        <div className='cv_button_wrapper'>
+          <a href={resumeData.cv.path} download>
+            <CustomButton text='Download CV' />
+          </a>
+        </div>
         <div className='header_right'>
           {Object.keys(resumeData.social).map((key, index) => (
             <a href={resumeData.social[key].link} target='_blank' key={index}>
