@@ -21,6 +21,15 @@ import firstapp from '../../Assets/Img/Works/reactnative/firstapp.png';
 import tourMERN from '../../Assets/Img/Works/reactjs/tourMERN.jpg';
 import rentNative from '../../Assets/Img/Works/reactnative/rent-native.jpg';
 import movie from '../../Assets/Img/Works/reactnative/movie.jpg';
+import babe_1 from '../../Assets/Img/Works/reactnative/Babe_app/babe_aap-1.jpg';
+import babe_2 from '../../Assets/Img/Works/reactnative/Babe_app/babe_aap-2.jpg';
+import babe_3 from '../../Assets/Img/Works/reactnative/Babe_app/babe_aap-3.jpg';
+import babe_4 from '../../Assets/Img/Works/reactnative/Babe_app/babe_aap-4.jpg';
+import babe_5 from '../../Assets/Img/Works/reactnative/Babe_app/babe_aap-5.jpg';
+import babe_6 from '../../Assets/Img/Works/reactnative/Babe_app/babe_aap-6.jpg';
+import babe_7 from '../../Assets/Img/Works/reactnative/Babe_app/babe_aap-7.jpg';
+import babe_8 from '../../Assets/Img/Works/reactnative/Babe_app/babe_aap-8.jpg';
+import babe_9 from '../../Assets/Img/Works/reactnative/Babe_app/babe_aap-9.jpg';
 
 export default {
   name: 'Yigal Igor Maksimov',
@@ -192,7 +201,7 @@ export default {
   portfolio: [
     {
       tag: 'ReactJS',
-      image: tourMERN,
+      image: [tourMERN],
       title: 'MERN Tour App',
       description:
         'Tours MERN (MongoDB, ExpressJS, ReactJS, NodeJS) App. With user and admin settings panel, option to order tours.Auth users with JWT cookie. Used MaterialUI for User Interface.',
@@ -201,7 +210,7 @@ export default {
     },
     {
       tag: 'React Native',
-      image: firstapp,
+      image: [firstapp],
       title: 'React Native App (Android)',
       caption: 'React Native App (Android)',
       description:
@@ -210,7 +219,7 @@ export default {
     },
     {
       tag: 'React Native',
-      image: foodDeliveryApp,
+      image: [foodDeliveryApp],
       title: 'React Native App (Android)',
       caption: 'Food Delivery App (Android)',
       description:
@@ -224,7 +233,36 @@ export default {
     },
     {
       tag: 'React Native',
-      image: movie,
+      image: [
+        babe_1,
+        babe_2,
+        babe_3,
+        babe_4,
+        babe_5,
+        babe_6,
+        babe_7,
+        babe_8,
+        babe_9,
+      ],
+      title: 'React Native App (Android)',
+      date: '10/03/2022',
+      caption: 'BABE APP ',
+      description:
+        'React Native App for Android. Pet managing app. Backend created on Python (restframework) as API. API has CRUD requests with JWT token. Frontend created on React Native.',
+      links: [
+        {
+          link: 'https://github.com/MaksYig/Babe_app_reactNative',
+          icon: <GitHubIcon />,
+        },
+        {
+          link: 'https://github.com/MaksYig/BABE_API',
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: 'React Native',
+      image: [movie],
       title: 'React Native Movie App (Android)',
       caption: 'React Native Movie App (Android)',
       description:
@@ -235,7 +273,7 @@ export default {
     },
     {
       tag: 'React Native',
-      image: rentNative,
+      image: [rentNative],
       title: 'Rent apartment Android App',
       caption: 'Rent apartment Android App',
       description:
@@ -244,7 +282,7 @@ export default {
     },
     {
       tag: 'JavaScript',
-      image: countDownjs,
+      image: [countDownjs],
       caption: 'Countdown script for web site',
       title: 'Javascript-Countdown vanila ',
       description:
@@ -258,7 +296,7 @@ export default {
     },
     {
       tag: 'JavaScript',
-      image: validationjs,
+      image: [validationjs],
       caption: 'SingUp modal with validation for web site',
       title: 'JavaScript-SingUp modal with validation',
       description:
@@ -272,7 +310,7 @@ export default {
     },
     {
       tag: 'JavaScript',
-      image: weatherjs,
+      image: [weatherjs],
       caption: 'Weather App with API requests',
       title: 'JavaScript-Weather App with API requests',
       description:
@@ -286,7 +324,7 @@ export default {
     },
     {
       tag: 'JavaScript',
-      image: dicegame,
+      image: [dicegame],
       caption: 'Javascript Dice Game',
       title: 'Javascript Dice Game',
       description:

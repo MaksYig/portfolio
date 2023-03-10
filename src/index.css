@@ -22,9 +22,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #fafafa;
+  background-color: #e4e4e4;
   /* overflow: hidden; */
-  background-image: url('./Assets/Img/bg.png');
+  /* background-image: url('./Assets/Img/bg.png');*/
 }
 
 code {

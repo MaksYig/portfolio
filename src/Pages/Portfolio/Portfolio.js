@@ -16,10 +16,13 @@ import {
   DialogActions,
 } from '@material-ui/core';
 import resumeData from '../../Components/utils/resumeData';
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 const Portfolio = () => {
   const [tabValue, setTabValue] = useState('All');
   const [projectDialog, setProjectDialog] = useState(false);
+  console.log(projectDialog.image);
 
   return (
     <Grid container spacing={1} className='section pt_45 pb_45'>
@@ -75,8 +78,9 @@ const Portfolio = () => {
                       <CardActionArea>
                         <CardMedia
                           className='customCard_image'
-                          image={project.image}
+                          image={project.image[0]}
                           title={project.title}
+                          style={{ objectFit: 'contain' }}
                         />
                         <CardContent>
                           <Typography
@@ -111,11 +115,25 @@ const Portfolio = () => {
         <DialogTitle onClose={() => setProjectDialog(false)}>
           {projectDialog.title}
         </DialogTitle>
-        <img
-          src={projectDialog.image}
-          alt={projectDialog.caption}
-          className='projectDialog_image'
-        />
+        <Carousel
+          autoFocus={true}
+          showThumbs={false}
+          showArrows={true}
+          dynamicHeight={true}
+        >
+          {projectDialog &&
+            projectDialog.image.map((img, index) => (
+              <div key={index}>
+                <img
+                  src={img}
+                  style={{
+                    objectFit: 'contain',
+                    maxHeight: '70vh',
+                  }}
+                />
+              </div>
+            ))}
+        </Carousel>
         <DialogContent>
           <Typography className='projectDialog_description'>
             {projectDialog.description}
@@ -131,6 +149,19 @@ const Portfolio = () => {
                 {link.icon}
               </a>
             ))}
+            <div
+              style={{
+                display: 'flex',
+                justifyContent: 'flex-end',
+                width: '100%',
+              }}
+            >
+              {projectDialog && projectDialog.date && (
+                <Typography style={{ fontSize: '12px' }}>
+                  {projectDialog.date}
+                </Typography>
+              )}
+            </div>
           </DialogActions>
         </DialogContent>
       </Dialog>
